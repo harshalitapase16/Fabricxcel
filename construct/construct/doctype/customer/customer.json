@@ -1,0 +1,82 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:code",
+ "creation": "2024-10-21 15:27:27.125040",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "code",
+  "name1",
+  "default_address",
+  "column_break_adis",
+  "contact_person",
+  "project_received"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "contact_person",
+   "fieldtype": "Table",
+   "label": "Contact Person",
+   "options": "Contact Person"
+  },
+  {
+   "fieldname": "column_break_adis",
+   "fieldtype": "Table",
+   "label": "Customer Address",
+   "options": "Customer Addresses"
+  },
+  {
+   "fieldname": "default_address",
+   "fieldtype": "Small Text",
+   "label": "Default Address"
+  },
+  {
+   "fieldname": "project_received",
+   "fieldtype": "Table",
+   "label": "Project Received",
+   "options": "Project Received"
+  },
+  {
+   "fieldname": "code",
+   "fieldtype": "Data",
+   "label": "Cust Code",
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-11-18 15:40:38.267992",
+ "modified_by": "Administrator",
+ "module": "Construct",
+ "name": "Customer",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "code"
+}

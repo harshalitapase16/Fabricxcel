@@ -1,0 +1,85 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-11-12 15:34:22.604802",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "drawing_no",
+  "drawing_weight",
+  "numbersquant",
+  "total",
+  "column_break_sksh",
+  "rate",
+  "amount",
+  "release_date",
+  "images"
+ ],
+ "fields": [
+  {
+   "fieldname": "drawing_no",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "DRW No."
+  },
+  {
+   "fieldname": "drawing_weight",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "DRW Weight"
+  },
+  {
+   "fieldname": "release_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Release Date"
+  },
+  {
+   "fieldname": "numbersquant",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Numbers/Quant"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Total"
+  },
+  {
+   "fieldname": "rate",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Rate"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Amount"
+  },
+  {
+   "fieldname": "column_break_sksh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "images",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "PO Copy"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-11-13 18:36:42.467790",
+ "modified_by": "Administrator",
+ "module": "Construct",
+ "name": "Drawings",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-28 13:20:04.897814",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "job_no",
+  "weight",
+  "rate"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fetch_from": "project_name.job_no",
+   "fieldname": "job_no",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Job No."
+  },
+  {
+   "fetch_from": "project_name.total_weight",
+   "fieldname": "weight",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Weight"
+  },
+  {
+   "fieldname": "rate",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Rate"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-10-28 16:50:57.833735",
+ "modified_by": "Administrator",
+ "module": "Construct",
+ "name": "project-bills",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

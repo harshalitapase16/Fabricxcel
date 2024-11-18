@@ -1,0 +1,83 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-11-12 17:24:11.660387",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project",
+  "project_number",
+  "project_date",
+  "quantity",
+  "amount",
+  "drawings",
+  "project_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Project ",
+   "options": "Project"
+  },
+  {
+   "fetch_from": "project_name.project_number",
+   "fieldname": "project_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Project Number",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "project_name.po_qty",
+   "fieldname": "quantity",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Quantity",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "drawings.amount",
+   "fieldname": "amount",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Amount",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "project_name.proejct_name",
+   "fieldname": "project",
+   "fieldtype": "Data",
+   "label": "Project Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "drawings",
+   "fieldtype": "Link",
+   "label": "Drawings",
+   "options": "Drawings"
+  },
+  {
+   "fetch_from": "project_name.po_date",
+   "fieldname": "project_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Project Date",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-11-12 17:45:15.194007",
+ "modified_by": "Administrator",
+ "module": "Construct",
+ "name": "Project Received",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

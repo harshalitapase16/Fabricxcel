@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-11-12 16:28:59.713145",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "address",
+  "address_name",
+  "city",
+  "pincode",
+  "state",
+  "gst_number"
+ ],
+ "fields": [
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Address "
+  },
+  {
+   "fieldname": "address_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Address Name"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "City"
+  },
+  {
+   "fieldname": "pincode",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Pincode"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "State"
+  },
+  {
+   "fieldname": "gst_number",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "GST Number"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-11-12 17:22:22.161019",
+ "modified_by": "Administrator",
+ "module": "Construct",
+ "name": "Customer Addresses",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
