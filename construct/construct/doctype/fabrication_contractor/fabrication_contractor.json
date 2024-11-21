@@ -8,7 +8,10 @@
  "field_order": [
   "name1",
   "rate",
-  "weight"
+  "weight",
+  "start_date_and_time",
+  "end_date",
+  "total"
  ],
  "fields": [
   {
@@ -31,12 +34,29 @@
    "in_list_view": 1,
    "label": "Weight",
    "non_negative": 1
+  },
+  {
+   "fieldname": "start_date_and_time",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Start Date and Time"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "End Date"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Float",
+   "label": "Total"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-10-28 13:31:47.398651",
+ "modified": "2024-11-19 18:31:29.750094",
  "modified_by": "Administrator",
  "module": "Construct",
  "name": "Fabrication Contractor",

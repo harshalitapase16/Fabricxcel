@@ -5,7 +5,5 @@
 from frappe.model.document import Document
 
 
-class BlastingContractor(Document):
-    pass
-	# total = rate * weight
-
+class ContactPerson(Document):
+	pass

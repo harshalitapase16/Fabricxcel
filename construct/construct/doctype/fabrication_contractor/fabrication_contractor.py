@@ -6,4 +6,6 @@ from frappe.model.document import Document
 
 
 class FabricationContractor(Document):
-	pass
+    pass
+	# self.total = self.rate * self.weight
+

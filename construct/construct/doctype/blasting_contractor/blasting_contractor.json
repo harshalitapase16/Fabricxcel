@@ -8,7 +8,10 @@
  "field_order": [
   "name1",
   "rate",
-  "weight"
+  "weight",
+  "start_date_and_time",
+  "end_time",
+  "total"
  ],
  "fields": [
   {
@@ -30,12 +33,29 @@
    "fieldtype": "Float",
    "in_list_view": 1,
    "label": "Weight"
+  },
+  {
+   "fieldname": "start_date_and_time",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Start Date and Time"
+  },
+  {
+   "fieldname": "end_time",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "End Time"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Float",
+   "label": "Total"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-10-28 13:32:27.992659",
+ "modified": "2024-11-19 18:29:25.666705",
  "modified_by": "Administrator",
  "module": "Construct",
  "name": "Blasting Contractor",

@@ -14,7 +14,6 @@
   "total_quantity",
   "column_break_wxzr",
   "project_start_date",
-  "total_weight",
   "description",
   "po_delivery_date",
   "total_amount",
@@ -24,18 +23,9 @@
   "contact_persons",
   "section_break_8ljt",
   "blasting_contractor",
-  "column_break_yacj",
   "fabrication_contractor"
  ],
  "fields": [
-  {
-   "default": "0",
-   "description": "in kg",
-   "fieldname": "total_weight",
-   "fieldtype": "Float",
-   "in_list_view": 1,
-   "label": "Total Weight"
-  },
   {
    "fieldname": "column_break_wxzr",
    "fieldtype": "Column Break"
@@ -67,10 +57,6 @@
    "fieldtype": "Link",
    "label": "Customer",
    "options": "Customer"
-  },
-  {
-   "fieldname": "column_break_yacj",
-   "fieldtype": "Column Break"
   },
   {
    "fieldname": "section_break_abzu",
@@ -145,7 +131,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-11-15 16:39:39.076332",
+ "modified": "2024-11-21 11:56:57.978851",
  "modified_by": "Administrator",
  "module": "Construct",
  "name": "Project",
@@ -169,5 +155,5 @@
  "sort_field": "creation",
  "sort_order": "DESC",
  "states": [],
- "title_field": "po_no"
+ "title_field": "project_name"
 }

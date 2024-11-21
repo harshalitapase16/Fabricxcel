@@ -7,4 +7,4 @@ from frappe.model.document import Document
 
 class Customer(Document):
 	def before_save(self):
-		print(self.contact_person)
+		pass
